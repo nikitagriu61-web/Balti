@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat, sans-serif';
+    font-size: 17px;
+
+}
+
+main{
+    min-height: 100vh;
+}
+
+header{
+    background: #bed5f1;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 15px 5px 15px;
+}
+
+navbar a {
+    color: white; 
+    text-decoration: none;
+    margin-right: 20px ;
+    font-size: 22px;
+    
+}
+navbar{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+    overflow: auto;
+}
+
+navbar a:hover {
+    color: blanchedalmond;
+    text-decoration: underline 1px;
+}
+
+
+.logo {
+    height: 70px;
+}
+footer {
+    min-height: 80px;
+    background: #bed5f1;
+    text-align: center;
+    color: black;
+    padding-top: 40px;
+    width: 102%;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    font-family: "Dancing Script", cursive;
+}
+h1{
+    font-size: 270%;
+}
+h2{
+    font-size: 200%;
+}
+
+section{
+    padding: 90px 15%;
+}
+
+#index{
+    background: linear-gradient(#ffffff63,#00000063), url('../images/centrus.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+.index-info {
+    margin-top: 25vh;
+    text-align: center;
+}
+
+
+
+
+.index-info h1 {
+    font-size: 350%;
+    color: white;
+    border: 2px solid rgb(88, 108, 173);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #80808057;
+}
+.link-index {
+    color: white;
+    text-decoration: underline #fa9483 2px;
+    font-size: 20px;
+
+}
+
+.link-index:hover {
+    color: #f3deca;
+}
+
+.centered {
+    text-align: center;
+}
+#despre {
+    background: linear-gradient(#ffffff63,#00000063), url('../images/Balti-3.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+#exp {
+    background: linear-gradient(#ffffff63,#00000063), url(../images/Nortek.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+#Contacte{
+    background: linear-gradient(#ffffff63,#00000063), url(../images/Stefanbalti.jpg);
+    background-size:cover ;
+    min-height: 100vh;
+}
+#licee {
+    background: linear-gradient(#ffffff63,#00000063), url(../images/Visit-71.jpg);
+    background-size: cover;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.harta {
+    width:100%;
+    height: 60vh;
+    
+}
+.info {
+    text-align: center ;
+    color: aqua;
+}
